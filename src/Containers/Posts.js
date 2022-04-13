@@ -2,7 +2,7 @@ import Post from "../Components/Post";
 
 
 const Posts = (props) => {
-
+let  x = 5;
   const postList = props.posts.map(post => {
       
     return <Post
